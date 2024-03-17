@@ -1,5 +1,8 @@
-/experiments
-detr_attention.ipynb
 .idea
 .ipynb_checkpoints
 __pycache__
+
+/experiments
+/artifacts
+/detr
+/wandb
