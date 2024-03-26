@@ -3,6 +3,6 @@
 __pycache__
 
 /experiments
-/artifacts
-/detr
-/wandb
+/scripts/panoptic
+/scripts/configs
+/notebooks/detr_cityscapes_panoptic.ipynb

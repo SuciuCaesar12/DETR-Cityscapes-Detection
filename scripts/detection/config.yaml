@@ -1,0 +1,14 @@
+training:
+  resume_artifact: None,    # resume training from this artifact
+  max_epochs: 2,            # maximum number of epochs to train for
+  batch_size: 1,            # batch size for each split's dataloader
+  num_workers: 0,           # number of workers for each split's dataloader
+  unfreeze_epoch: 1,        # unfreeze entire model at the start of this epoch
+  overfit_batches: 10,      # use only if you want to overfit for debugging, otherwise set to 0
+  
+  model: 
+      lr: 1e-4,             # lr set for encoder-decoder
+      lr_backbone: 1e-5,    # lr set for backbone
+      weight_decay: 1e-4,   # weight decay
+
+project: detr               # W&B project name
