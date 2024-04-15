@@ -6,3 +6,4 @@ __pycache__
 /scripts/panoptic
 /scripts/configs
 /notebooks/detr_cityscapes_panoptic.ipynb
+/notebooks/wandb
